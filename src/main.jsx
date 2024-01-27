@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Board from './App.jsx'
 import './index.css'
+import Game from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Board />
+    <Game></Game>
   </React.StrictMode>,
 )
